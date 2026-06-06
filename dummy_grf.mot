@@ -1,0 +1,9 @@
+Dummy GRF for Squat
+version=1
+nRows=2
+nColumns=19
+inDegrees=yes
+endheader
+time	1_ground_force_x	1_ground_force_y	1_ground_force_z	1_ground_point_x	1_ground_point_y	1_ground_point_z	1_ground_torque_x	1_ground_torque_y	1_ground_torque_z	2_ground_force_x	2_ground_force_y	2_ground_force_z	2_ground_point_x	2_ground_point_y	2_ground_point_z	2_ground_torque_x	2_ground_torque_y	2_ground_torque_z
+0.000	0	320	0	0.05	0	0	0	0	0	0	320	0	0.05	0	0	0	0	0
+8.700	0	320	0	0.05	0	0	0	0	0	0	320	0	0.05	0	0	0	0	0

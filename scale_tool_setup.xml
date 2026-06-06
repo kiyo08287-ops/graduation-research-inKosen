@@ -1,0 +1,66 @@
+<OpenSimDocument Version="40000">
+    <ScaleTool name="Scaling">
+        <model_file>Rajagopal2016.osim</model_file>
+        <output_model_file>Rajagopal2016_scaled.osim</output_model_file>
+        <subject_mass>65.0</subject_mass>
+        <ScaleTool.Scale_Applications>
+            <ScaleApplication name="subject_scale">
+                <apply>true</apply>
+                <time_range>0.0 0.0</time_range>
+                <SegmentScaleSet>
+                    <SegmentScale name="femur_r">
+                        <scales>0.9402 0.9402 0.9402</scales>
+                    </SegmentScale>
+                    <SegmentScale name="femur_l">
+                        <scales>0.9746 0.9746 0.9746</scales>
+                    </SegmentScale>
+                    <SegmentScale name="torso">
+                        <scales>0.8928 0.8928 0.8928</scales>
+                    </SegmentScale>
+                    <SegmentScale name="humerus_r">
+                        <scales>0.8675 0.8675 0.8675</scales>
+                    </SegmentScale>
+                    <SegmentScale name="humerus_l">
+                        <scales>0.9001 0.9001 0.9001</scales>
+                    </SegmentScale>
+                    <SegmentScale name="ulna_r">
+                        <scales>0.9964 0.9964 0.9964</scales>
+                    </SegmentScale>
+                    <SegmentScale name="ulna_l">
+                        <scales>1.0114 1.0114 1.0114</scales>
+                    </SegmentScale>
+                    <SegmentScale name="pelvis">
+                        <scales>0.9404 0.9404 0.9404</scales>
+                    </SegmentScale>
+                    <SegmentScale name="tibia_r">
+                        <scales>0.9404 0.9404 0.9404</scales>
+                    </SegmentScale>
+                    <SegmentScale name="tibia_l">
+                        <scales>0.9404 0.9404 0.9404</scales>
+                    </SegmentScale>
+                    <SegmentScale name="radius_r">
+                        <scales>0.9964 0.9964 0.9964</scales>
+                    </SegmentScale>
+                    <SegmentScale name="radius_l">
+                        <scales>1.0114 1.0114 1.0114</scales>
+                    </SegmentScale>
+                    <SegmentScale name="calcn_r">
+                        <scales>0.9404 0.9404 0.9404</scales>
+                    </SegmentScale>
+                    <SegmentScale name="calcn_l">
+                        <scales>0.9404 0.9404 0.9404</scales>
+                    </SegmentScale>
+                    <SegmentScale name="talus_r">
+                        <scales>0.9404 0.9404 0.9404</scales>
+                    </SegmentScale>
+                    <SegmentScale name="talus_l">
+                        <scales>0.9404 0.9404 0.9404</scales>
+                    </SegmentScale>
+                </SegmentScaleSet>
+            </ScaleApplication>
+        </ScaleTool.Scale_Applications>
+        <ScaleTool.Marker_Placement>
+            <apply>false</apply>
+        </ScaleTool.Marker_Placement>
+    </ScaleTool>
+</OpenSimDocument>

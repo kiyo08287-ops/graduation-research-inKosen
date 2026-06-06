@@ -1,0 +1,84 @@
+<OpenSimDocument Version="40000">
+    <InverseKinematicsTool name="InverseKinematics">
+        <model_file>Rajagopal2016_scaled.osim</model_file>
+        <marker_file>training_motion.trc</marker_file>
+        <output_motion_file>training_motion_ik.mot</output_motion_file>
+        <time_range>0.000000 8.742067</time_range>
+        <IKTaskSet>
+            <objects>
+                <IKMarkerTask name="RHJC">
+                    <apply>true</apply>
+                    <weight>30.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="RKJC">
+                    <apply>true</apply>
+                    <weight>40.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="RAJC">
+                    <apply>true</apply>
+                    <weight>40.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="RCAL">
+                    <apply>true</apply>
+                    <weight>100.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="RTOE">
+                    <apply>true</apply>
+                    <weight>100.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="LHJC">
+                    <apply>true</apply>
+                    <weight>30.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="LKJC">
+                    <apply>true</apply>
+                    <weight>40.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="LAJC">
+                    <apply>true</apply>
+                    <weight>40.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="LCAL">
+                    <apply>true</apply>
+                    <weight>100.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="LTOE">
+                    <apply>true</apply>
+                    <weight>100.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="RSJC">
+                    <apply>true</apply>
+                    <weight>10.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="REJC">
+                    <apply>true</apply>
+                    <weight>10.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="RFAsuperior">
+                    <apply>true</apply>
+                    <weight>10.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="LSJC">
+                    <apply>true</apply>
+                    <weight>10.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="LEJC">
+                    <apply>true</apply>
+                    <weight>10.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="LFAsuperior">
+                    <apply>true</apply>
+                    <weight>10.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="CLAV">
+                    <apply>true</apply>
+                    <weight>5.0</weight>
+                </IKMarkerTask>
+                <IKMarkerTask name="C7">
+                    <apply>true</apply>
+                    <weight>25.0</weight>
+                </IKMarkerTask>
+            </objects>
+        </IKTaskSet>
+    </InverseKinematicsTool>
+</OpenSimDocument>
